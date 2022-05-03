@@ -1,0 +1,108 @@
+.app.dark {
+    background-color: rgb(36, 35, 35);
+    color:#D2B48C;
+  
+    .chartGrid {
+      stroke: rgba(228, 228, 228, 0.219);
+    }
+  
+    .table {
+      background-color: rgb(36, 35, 35);
+  
+      .tableCell {
+        color: #D2B48C;
+      }
+    }
+    .featured{
+     .top{
+       color:  #D2B48C;
+     }
+      
+  
+}
+
+  .datatable, 
+  .fdatatable,
+  .ddatatable,
+  .sdatatable{
+    .datatableTitle{
+      color:#d2a871;
+    }
+  }
+    .navbar {
+      color: #D2B48C;
+      border-color: rgb(121, 119, 119);
+  
+      .search {
+        border-color: gray;
+        color: #D2B48C;
+      }
+    }
+  .widget{
+      .left{
+          title{
+      color: #D2B48C;}}
+  }
+    .sidebar {
+      background-color: rgb(36, 35, 35);
+      border-color: rgb(82, 80, 80);
+     color:#D2B48C;
+  
+      .top {
+        .logo {
+          color: #d2a871;
+        }
+      }
+      hr {
+        border-color: #333;
+      }
+  .new{
+      .top{
+          title{
+               color: #D2B48C;
+          }
+      }
+      label{
+          color:   #D2B48C;
+      }
+  }
+      ul {
+        li {
+          &:hover {
+            background-color: #333;
+          }
+  
+          .icon {
+            color: #D2B48C;
+          }
+        }
+      }
+    }
+ .home{
+     .listTitle{
+         color: #D2B48C;
+     }
+ }
+    .datatable {
+        .datatableTitle{
+            color: #D2B48C;
+        }
+      .datagrid {
+        color: #D2B48C;
+        border: none;
+  
+        .viewButton,
+        .editButton,
+        .deleteButton,
+        .cellWithStatus {
+          color: #D2B48C;
+          border: none;
+        }
+      }
+    }
+  
+    input{
+        background-color: transparent;
+        color:rgb(202, 168, 168);
+    }
+  }

@@ -1,0 +1,45 @@
+.widget{
+    display: flex;
+    justify-content: space-between;
+   flex: 1;
+   padding: 10px;
+   -webkit-box-shadow: 2px 4px 10px 1px darkseagreen;
+   box-shadow: 2px 4px 10px 1px rgb(131, 212, 131);
+   border-radius: 10px;
+   height: 100px;
+   .left, .right
+   {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+   
+       .title{
+           font-weight: bold;
+           font-size: 14px;
+          
+           font-family: lora;
+       }
+       
+       .link{
+           width: max-content;
+           font-size: 12px;
+           border-bottom: 1px solid #000;
+           cursor: pointer;
+   
+       }
+       span{
+           .title{
+               text-align: center;
+               
+           }
+       }
+       .icon{
+        font-size: 20px;
+        padding: 5px;
+       
+        border-radius: 5px;
+        align-self: flex-end;
+    }
+    }
+   }
+

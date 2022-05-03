@@ -1,0 +1,33 @@
+.home {
+    display: flex; 
+    .homeContainer
+     {
+      flex: 6;
+      
+      .widgets, .charts{
+        display: flex;
+        padding: 20px;
+        gap: 20px;
+
+      }
+
+      .charts{
+        padding: 5px 20px;
+      }
+
+      .listContainer {
+        -webkit-box-shadow: 2px 4px 10px 1px darkseagreen;
+        box-shadow: 2px 4px 10px 1px rgb(131, 212, 131);
+        padding: 20px;
+        margin: 20px;
+
+        .listTitle {
+          font-weight: 500;
+       
+          margin-bottom: 15px;
+          font-family: lora;
+        }
+      }
+      }
+    
+ }
